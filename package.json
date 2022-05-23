@@ -1,0 +1,15 @@
+{
+  "name": "fpl_draft_h2h_stats",
+  "version": "1.0.0",
+  "description": "When given an FPL Draft league ID, these scripts will pull data from FPL APIs and compile informative CSV files (spreadsheets).",
+  "main": "processAll.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  }
+}
