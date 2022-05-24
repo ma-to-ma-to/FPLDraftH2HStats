@@ -21,7 +21,7 @@ When given an FPL Draft league ID, these scripts will pull data from FPL APIs an
 3. In the inspector pane, go to the Network tab (at the top).
 4. On the FPL Draft website, click the "League" tab.
 5. You will see rows populate into the inspector pane. Click the row that has Name/File/Filename "details".
-6. In the right side of the pane, an inner pane will show with a bunch of information in it. At the top is a URL that should say something like
+6. In the right side of the inspector pane, an inner pane will show with a bunch of information in it. At the top is a URL that should say something like
     *  `GET https://draft.premierleague.com/api/league/XXXXX/details`
 7. The XXXXX part is your League ID!
 <br/>
