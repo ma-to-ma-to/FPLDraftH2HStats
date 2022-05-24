@@ -2,7 +2,7 @@
 When given an FPL Draft Head-to-Head league ID, these scripts will pull data from FPL APIs and compile informative CSV files (spreadsheets).
 
 ## How to Use the Scripts
-1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or download this repository.
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or download this repository to some folder on your computer.
 2. Install [Node.js](https://nodejs.org/en/download/) if you don't have it already.
 3. Use a [command line interface](https://medium.com/swlh/how-to-use-the-command-line-interface-cli-9c8b70e568e) to navigate to the folder where you cloned this repository.
     * For Linux and Mac, the default included terminals will work fine.
