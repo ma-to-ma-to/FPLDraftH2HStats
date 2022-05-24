@@ -18,7 +18,7 @@ When given an FPL Draft Head-to-Head League ID, these scripts will pull data fro
 ## How do I find my League ID?
 1. Use a non-mobile (PC, Mac, or Linux) browser to log in to your FPL Draft League at https://draft.premierleague.com/
 2. Open the browser's inspector via the context menu that appears when you right click the page (or simply press F12 on Chrome/Firefox).
-3. In the inspector pane, go to the Network tab (at the top).
+3. In the inspector pane, go to the Network tab at the top.
 4. On the FPL Draft website, click the "League" tab.
 5. You will see rows populate into the inspector pane. Click the row that has Name/File/Filename "details".
 6. On the right side of the inspector pane, an inner pane will show with a bunch of information in it. At the top is a URL that should say something like
