@@ -6,7 +6,7 @@ When given an FPL Draft Head-to-Head League ID, these scripts will pull data fro
 2. Install [Node.js](https://nodejs.org/en/download/) if you don't have it already.
 3. Use a [command line interface](https://medium.com/swlh/how-to-use-the-command-line-interface-cli-9c8b70e568e) to navigate to the folder where you cloned this repository.
     * For Linux and Mac, the default included terminals will work fine.
-    * For Windows, I recommend PowerShell, which is also now included on all Windows installs.
+    * For Windows, I recommend [PowerShell](https://docs.microsoft.com/en-us/powershell/), which is also now included on all Windows installs.
 4. Use the following command to install necessary packages for the program to work:
     * `npm i`
 5. Run the scripts with the following command:
