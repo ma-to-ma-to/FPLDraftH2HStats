@@ -22,8 +22,8 @@ When given an FPL Draft Head-to-Head league ID, these scripts will pull data fro
 4. On the FPL Draft website, click the "League" tab.
 5. You will see rows populate into the inspector pane. Click the row that has Name/File/Filename "details".
 6. In the right side of the inspector pane, an inner pane will show with a bunch of information in it. At the top is a URL that should say something like
-    *  `GET https://draft.premierleague.com/api/league/XXXXX/details`
-7. The XXXXX part is your League ID!
+    *  `GET https://draft.premierleague.com/api/league/[XXXXX]/details`
+7. The \[XXXXX\] part is your League ID!
 <br/>
 <br/>
 <br/>
