@@ -1,5 +1,5 @@
 # FPLDraftH2HStats
-When given an FPL Draft league ID, these scripts will pull data from FPL APIs and compile informative CSV files (spreadsheets).
+When given an FPL Draft Head-to-Head league ID, these scripts will pull data from FPL APIs and compile informative CSV files (spreadsheets).
 
 ## How to Use the Scripts
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or download this repository.
