@@ -1,5 +1,5 @@
 # FPLDraftH2HStats
-When given an FPL Draft Head-to-Head league ID, these scripts will pull data from FPL APIs and compile informative CSV files (spreadsheets).
+When given an FPL Draft Head-to-Head League ID, these scripts will pull data from FPL APIs and compile informative CSV files (spreadsheets).
 
 ## How to Use the Scripts
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or download this repository to some folder on your computer.
@@ -13,7 +13,7 @@ When given an FPL Draft Head-to-Head league ID, these scripts will pull data fro
     * `node processAll.js [XXXXX]`
     * Be sure to replace \[XXXXX\] with your League ID. This is necessary for the scripts to run.
 6. [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) will be populated into a new folder called `csv` in the same location on your machine. You can open these with Excel or an open source counterpart. Enjoy!
-    * If you run the scripts more than once, be sure to move the previous CSV files out of the csv folder. If you dont, the program will append to those files and make something of a mess in doing so.
+    * If you run the scripts more than once, be sure to move the previous CSV files out of the csv folder before re-running. If you don't, the scripts will append to those existing CSV files and make something of a mess in doing so.
 
 ## How do I find my League ID?
 1. Use a non-mobile (PC, Mac, or Linux) browser to log in to your FPL Draft League at https://draft.premierleague.com/
@@ -21,10 +21,10 @@ When given an FPL Draft Head-to-Head league ID, these scripts will pull data fro
 3. In the inspector pane, go to the Network tab (at the top).
 4. On the FPL Draft website, click the "League" tab.
 5. You will see rows populate into the inspector pane. Click the row that has Name/File/Filename "details".
-6. In the right side of the inspector pane, an inner pane will show with a bunch of information in it. At the top is a URL that should say something like
+6. On the right side of the inspector pane, an inner pane will show with a bunch of information in it. At the top is a URL that should say something like
     *  `GET https://draft.premierleague.com/api/league/[XXXXX]/details`
 7. The \[XXXXX\] part is your League ID!
 <br/>
 <br/>
 <br/>
-NOTE: Previous season data is not available with this tool! When a new season starts, FPL APIs no longer serve any data on older seasons.
+NOTE: Previous season data is not available with this tool! Unfortunately when a new season starts, the FPL APIs no longer serve any data from older seasons.
