@@ -26,7 +26,7 @@ When given an FPL Draft Head-to-Head League ID, these scripts will pull data fro
 7. The \[XXXXX\] part is your League ID!
 
 ## Making Graphs
-As mentioned, these scripts only create spreadsheets of your stats. Many options are available to make data visualizations of the spreadsheets - Power BI and Excel are powerful options. Personally I used a free account on [Piktochart](https://piktochart.com/). Data from spreadsheets can be copied into their web app to make graphs like the ones below, (though you will likely need to adjust some of the formatting from the generated spreadsheets):
+As mentioned, these scripts only create spreadsheets of your stats. Many options are available to make data visualizations of the spreadsheets - Power BI and Excel are powerful options. Personally I used a free account on [Piktochart](https://piktochart.com/). Data from spreadsheets can be copied into their web app to make graphs like the ones below, though you will likely need to adjust some of the formatting from the generated spreadsheets.
 <br/>
 <br/>
 <p align="center">
