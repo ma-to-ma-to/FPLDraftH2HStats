@@ -24,6 +24,19 @@ When given an FPL Draft Head-to-Head League ID, these scripts will pull data fro
 6. On the right side of the inspector pane, an inner pane will show with a bunch of information in it. At the top is a URL that should say something like
     *  `GET https://draft.premierleague.com/api/league/[XXXXX]/details`
 7. The \[XXXXX\] part is your League ID!
+
+## Making Graphs
+As mentioned, these scripts only create spreadsheets of your stats. Many options are available to make data visualizations of the spreadsheets - Power BI and Excel are powerful options. Personally I used a free account on [Piktochart](https://piktochart.com/). Data from spreadsheets can be copied into their web app to make graphs like the ones below, (though you will likely need to adjust some of the formatting from the generated spreadsheets):
+<br/>
+<br/>
+<p align="center">
+  <img src="https://i.imgur.com/An3b0mn.png">
+<br/>
+  <img src="https://i.imgur.com/pnM2gCD.png">
+<br/>
+  <img src="https://i.imgur.com/JnLAn3X.png">
+</p>
+<br/>
 <br/>
 <br/>
 <br/>
