@@ -8,6 +8,11 @@ const run = async (leagueId) => {
   const currentGameweek = gameStatus.current_event;
 
   const leagueData = await client.getLeagueData(leagueId);
+  console.log(leagueData);
+  if (!leagueData.league_entries || !leagueData.matches) {
+    console.error('No data found for league ID ' + leagueId + '. Please make sure that you have a valid Head-to-Head scoring mode league ID from draft.premierleague.com!');
+    process.exit(1);
+  }
   const leagueEntries = leagueData.league_entries;
   const matches = leagueData.matches;
 
