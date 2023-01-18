@@ -1,3 +1,4 @@
+import * as writeCSV from './writeCSV.js';
 import * as processMatches from './processMatches.js';
 import * as processTransfers from './processTransfers.js';
 import * as processPointBreakdowns from './processPointBreakdowns.js';
@@ -12,6 +13,7 @@ if (isNaN(process.argv[2])) {
     process.exit(1);
 }
 
+await writeCSV.directoryReset();
 await processMatches.run(process.argv[2]);
 await processTransfers.run(process.argv[2]);
 await processPointBreakdowns.run(process.argv[2]);

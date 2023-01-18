@@ -13,7 +13,7 @@ When given an FPL Draft Head-to-Head League ID, these scripts will pull data fro
     * `node processAll.js [XXXXX]`
     * Be sure to replace \[XXXXX\] with your League ID (without the brackets). This is necessary for the scripts to run.
 6. [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) will be populated into a new folder called `csv` in the same location on your machine. You can open these with Excel or an open source equivalent. Enjoy!
-    * If you run the scripts more than once, be sure to move the previous CSV files out of the csv folder before re-running. If you don't, the scripts will append to those existing CSV files and make something of a mess in doing so.
+    * If you run the scripts more than once, please note that the scripts will permanently delete all files in the `csv` folder them and replace them!
 
 ## How do I find my League ID?
 1. Use a non-mobile (PC, Mac, or Linux) browser to log in to your FPL Draft League at https://draft.premierleague.com/

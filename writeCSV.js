@@ -1,5 +1,10 @@
 import * as fs from 'fs/promises';
 
+const directoryReset = async () => {
+  await fs.rm("csv", { recursive: true, force: true });
+  await fs.mkdir("csv");
+}
+
 const leagueStandingProgression = async (entryIdToNameMap, currentGameweek, gameweekRanks) => {
   let firstRow = '';
   for (let gw = 0; gw <= currentGameweek; gw++) {
@@ -305,6 +310,7 @@ const mostTransferredPlayers = async (mostTransferredPlayers) => {
 
 
 export {
+  directoryReset,
   leagueStandingProgression,
   headToHeadRecords,
   totalScoreProgression,
